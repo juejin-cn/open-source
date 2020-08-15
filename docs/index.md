@@ -1,6 +1,6 @@
 ---
 hero:
-  title: fullstack
+  title: open-source
   desc: dumi site app example
   actions:
     - text: Getting Started
