@@ -1,7 +1,7 @@
 ---
 hero:
   title: open-source
-  desc: dumi site app 脚手架
+  desc: 搭建中...
   actions:
     - text: 快速上手
       link: /getting-started
@@ -19,3 +19,5 @@ footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](http
 ---
 
 ## Hello juejin!
+
+你好呀。
