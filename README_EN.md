@@ -7,6 +7,4 @@
 
 ## 什么是 open source
 
-`OpenSource`其目的是作为
-
-... 待更新
+`OpenSource`其目的是作为一个开源
