@@ -1,7 +1,7 @@
 ---
 hero:
   title: open-source
-  desc: dumi site app example
+  desc: Under construction
   actions:
     - text: Getting Started
       link: /getting-started
