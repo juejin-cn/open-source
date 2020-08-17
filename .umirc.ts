@@ -2,7 +2,7 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   title: 'open-source',
   favicon: 'https://b-gold-cdn.xitu.io/favicons/v2/favicon.ico',
-  logo: './logo.png',
+  logo: 'https://juejin-im.github.io/open-source/logo.png',
   mode: 'site',
   base: '/open-source',
   publicPath: '/open-source/',
