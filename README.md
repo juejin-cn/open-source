@@ -1,12 +1,25 @@
 <a href="./README_EN.md">English</a> |
 <a href="./README.md">简体中文</a>
 
-<h1 style="text-align: center;">关于Open Source</h1>
+<p align="center">
+  <a href="#">
+    <img src="./logo.png" alt="juejin logo" width="100" height="100">
+  </a>
+</p>
 
-> 🏆 你最值得关注的开源库
+<h2 align="center">开源计划</h2>
 
-## 什么是 open source
-
-`OpenSource`其目的是作为
-
-... 待更新
+<p align="center">
+  描述 编写中...
+  <br>
+  <a href="#"><strong>打开文档 »</strong></a>
+  <br>
+  <br>
+  <a href="#">推荐</a>
+  ·
+  <a href="#">实验性</a>
+  ·
+  <a href="#">社区</a>
+  ·
+  <a href="#">日志</a>
+</p>
