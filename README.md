@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://github.com/juejin-im/open-source/blob/master/logo.png" alt="juejin logo" width="100" height="100">
+    <img src="https://github.com/juejin-im/open-source/blob/master/public/logo.png" alt="juejin logo" width="100" height="100">
   </a>
 </p>
 
