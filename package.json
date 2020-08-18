@@ -20,8 +20,12 @@
   },
   "devDependencies": {
     "dumi": "^1.0.9",
-    "prettier": "^1.19.1",
     "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
     "yorkie": "^2.0.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "antd": "^4.5.4"
   }
 }
