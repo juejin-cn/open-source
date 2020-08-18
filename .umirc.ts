@@ -13,4 +13,5 @@ export default defineConfig({
   theme: {
     '@c-primary': '#0876e4',
   },
+  locales: [['zh-CN', '中文'], ['en-US', 'English']]
 });
