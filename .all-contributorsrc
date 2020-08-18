@@ -1,0 +1,94 @@
+{
+  "projectName": "open-source",
+  "projectOwner": "juejin-im",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "Users.md"
+  ],
+  "imageSize": 80,
+  "commit": false,
+  "contributorsPerLine": 7,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" style=\"border-radius: 80px;\"/><br/></a>",
+  "types": {
+    "code": {
+      "symbol": "💻"
+    },
+	"fix": {
+      "symbol": "🐛"
+    },
+	"doc": {
+      "symbol": "📖"
+    }
+  },
+  "contributors": [
+    {
+      "login": "itcodes",
+      "name": "优弧",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8282645?v=4",
+      "profile": "http://www.itcodes.cn/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "kkzhilu",
+      "name": "Super-Kerwin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/34807944?v=4",
+      "profile": "https://www.kkzhilu.xyz/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "leviding",
+      "name": "LeviDing",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26959437?v=4",
+      "profile": "https://dingxuewen.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "wangly19",
+      "name": "王方华",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/45115006?v=4",
+      "profile": "https://juejin.im/user/5c1b4d04e51d450eca5af1dd",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "youngjuning",
+      "name": "杨俊宁",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13204332?v=4",
+      "profile": "https://youngjuning.js.org/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "Cookieboty",
+      "name": "Cookieboty",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13778283?v=4",
+      "profile": "https://github.com/Cookieboty",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "XmanLin",
+      "name": "lin",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/31562877?v=4",
+      "profile": "https://juejin.im/user/59c7ae3d518825788565af37",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "commitConvention": "none"
+}

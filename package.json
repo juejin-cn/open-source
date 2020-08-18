@@ -19,6 +19,7 @@
     ]
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.17.2",
     "dumi": "^1.0.9",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
