@@ -10,15 +10,15 @@
   "commit": false,
   "contributorsPerLine": 7,
   "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" style=\"border-radius: 80px;\"/><br/></a>",
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" style=\"border-radius: <%= options.imageSize %>px;\"/><br/></a>",
   "types": {
     "code": {
       "symbol": "💻"
     },
-	"fix": {
+    "fix": {
       "symbol": "🐛"
     },
-	"doc": {
+    "doc": {
       "symbol": "📖"
     }
   },
@@ -85,6 +85,15 @@
       "name": "lin",
       "avatar_url": "https://avatars0.githubusercontent.com/u/31562877?v=4",
       "profile": "https://juejin.im/user/59c7ae3d518825788565af37",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "he-erduo",
+      "name": "和耳朵",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33930171?v=4",
+      "profile": "https://github.com/he-erduo",
       "contributions": [
         "doc"
       ]

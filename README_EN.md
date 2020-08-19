@@ -33,7 +33,7 @@
 
 ## Contribution Guide
 
-We need your recommendation or self recommendation, The requirements for open source projects are as follows: 
+We need your recommendation or self recommendation, The requirements for open source projects are as follows:
 
 - The open source library that has been updated and under maintenance in recent 3 months
 - There are clear application scenarios and high project quality
@@ -41,7 +41,7 @@ We need your recommendation or self recommendation, The requirements for open so
 
 <br/>
 
-After meeting the requirements, we certainly need a good recommendation / self recommendation description, It includes but is not limited to the following contents: 
+After meeting the requirements, we certainly need a good recommendation / self recommendation description, It includes but is not limited to the following contents:
 
 - Introduction of open source project, including language, classification, recommendation reason, usage, etc
 - Open source project renderings, or instructions for use
@@ -56,7 +56,7 @@ After writing the instructions, please go to [open-source](https://github.com/ju
 
 ## Join us
 
-This project may become the best collection of open source projects in the future, of course, if you want to go to that step, you can't help it. 
+This project may become the best collection of open source projects in the future, of course, if you want to go to that step, you can't help it.
 
 At the same time, we will also launch the open source materials / open source project [translation plan](https://github.com/juejin-im/open-source-translation), whether you are an English talent, a technology guru, or an open source enthusiast.
 
@@ -72,15 +72,19 @@ Of course, you can also leave your message in issues. In addition, we are lookin
 
 <table>
   <tr>
-    <td align="center"><a href="http://www.itcodes.cn/"><img src="https://avatars2.githubusercontent.com/u/8282645?v=4" width="80px;" style="border-radius: 80px;"/><br /></a></td>
-    <td align="center"><a href="https://www.kkzhilu.xyz/"><img src="https://avatars2.githubusercontent.com/u/34807944?v=4" width="80px;" style="border-radius: 80px;"/><br /></a></td>
-    <td align="center"><a href="https://dingxuewen.com/"><img src="https://avatars3.githubusercontent.com/u/26959437?v=4" width="80px;" style="border-radius: 80px;"/><br /></a></td>
-    <td align="center"><a href="https://juejin.im/user/5c1b4d04e51d450eca5af1dd"><img src="https://avatars0.githubusercontent.com/u/45115006?v=4" width="80px;" style="border-radius: 80px;"/><br /></a></td>
-    <td align="center"><a href="https://youngjuning.js.org/"><img src="https://avatars2.githubusercontent.com/u/13204332?v=4" width="80px;" style="border-radius: 80px;"/><br /></a></td>
-    <td align="center"><a href="https://github.com/Cookieboty"><img src="https://avatars3.githubusercontent.com/u/13778283?v=4" width="80px;" style="border-radius: 80px;"/><br /></a></td>
-    <td align="center"><a href="https://juejin.im/user/59c7ae3d518825788565af37"><img src="https://avatars0.githubusercontent.com/u/31562877?v=4" width="80px;" style="border-radius: 80px;"/><br /></a></td>
+    <td align="center"><a href="http://www.itcodes.cn/"><img src="https://avatars2.githubusercontent.com/u/8282645?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+    <td align="center"><a href="https://www.kkzhilu.xyz/"><img src="https://avatars2.githubusercontent.com/u/34807944?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+    <td align="center"><a href="https://dingxuewen.com/"><img src="https://avatars3.githubusercontent.com/u/26959437?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+    <td align="center"><a href="https://juejin.im/user/5c1b4d04e51d450eca5af1dd"><img src="https://avatars0.githubusercontent.com/u/45115006?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+    <td align="center"><a href="https://youngjuning.js.org/"><img src="https://avatars2.githubusercontent.com/u/13204332?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+    <td align="center"><a href="https://github.com/Cookieboty"><img src="https://avatars3.githubusercontent.com/u/13778283?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+    <td align="center"><a href="https://juejin.im/user/59c7ae3d518825788565af37"><img src="https://avatars0.githubusercontent.com/u/31562877?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/he-erduo"><img src="https://avatars2.githubusercontent.com/u/33930171?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
   </tr>
 </table>
+
 <br/>
 
 Thanks contributors 🤞, If you want to contribute, please see [Contribution Guide](#Contribution Guide) or [Join us](#Join us).

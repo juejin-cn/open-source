@@ -30,6 +30,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Cookieboty"><img src="https://avatars3.githubusercontent.com/u/13778283?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
     <td align="center"><a href="https://juejin.im/user/59c7ae3d518825788565af37"><img src="https://avatars0.githubusercontent.com/u/31562877?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/he-erduo"><img src="https://avatars2.githubusercontent.com/u/33930171?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
