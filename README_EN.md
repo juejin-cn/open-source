@@ -14,7 +14,7 @@
   <br>
   <a title="English" href="#">English</a> | <a title="Chinese" href="README.md">Chinese</a></p> 
 <p align="center">  
-  Do you see a good open source project for a moment，but you don't forget it after leaving，so come here and have a look.
+  Do you see a good open source project for a moment, but you don't forget it after leaving, so come here and have a look.
   <br>  
   <br>
   <a href="https://juejin-im.github.io/open-source/">Start »</a>
@@ -33,7 +33,7 @@
 
 ## Contribution Guide
 
-We need your recommendation or self recommendation，The requirements for open source projects are as follows：
+We need your recommendation or self recommendation, The requirements for open source projects are as follows: 
 
 - The open source library that has been updated and under maintenance in recent 3 months
 - There are clear application scenarios and high project quality
@@ -41,7 +41,7 @@ We need your recommendation or self recommendation，The requirements for open s
 
 <br/>
 
-After meeting the requirements, we certainly need a good recommendation / self recommendation description，It includes but is not limited to the following contents：
+After meeting the requirements, we certainly need a good recommendation / self recommendation description, It includes but is not limited to the following contents: 
 
 - Introduction of open source project, including language, classification, recommendation reason, usage, etc
 - Open source project renderings, or instructions for use
@@ -50,17 +50,19 @@ After meeting the requirements, we certainly need a good recommendation / self r
 
 <br/>
 
-After writing the instructions，please go to [open-source](https://github.com/juejin-im/open-source/issues) to launch issues and leave your contact information. We will complete the assessment within one week
+After writing the instructions, please go to [open-source](https://github.com/juejin-im/open-source/issues) to launch issues and leave your contact information, we will complete the assessment within one week.
 
 <br/>
 
 ## Join us
 
-This project may become the best collection of open source projects in the future, of course， if you want to go to that step, you can't help it，At the same time, we will also launch the open source materials / open source project translation plan, whether you are an English talent, a technology guru, or an open source enthusiast
+This project may become the best collection of open source projects in the future, of course, if you want to go to that step, you can't help it. 
 
-We all welcome you to join us!
+At the same time, we will also launch the open source materials / open source project [translation plan](https://github.com/juejin-im/open-source-translation), whether you are an English talent, a technology guru, or an open source enthusiast.
 
-Wechat, please contact：chnyifan or Super-Kerwin
+You have a place here, we all welcome you to join!
+
+Wechat, please contact: chnyifan or Super-Kerwin.
 
 Of course, you can also leave your message in issues. In addition, we are looking forward to your ideas✨
 
@@ -81,7 +83,7 @@ Of course, you can also leave your message in issues. In addition, we are lookin
 </table>
 <br/>
 
-Thanks contributors 🤞，If you want to contribute，please see [Contribution Guide](#Contribution Guide)， [Join us](#Join us)
+Thanks contributors 🤞, If you want to contribute, please see [Contribution Guide](#Contribution Guide) or [Join us](#Join us).
 
 <br/>
 
