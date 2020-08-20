@@ -4,7 +4,7 @@ hero:
   desc: Do you see a good open source project in a flash, but you don't forget it easily. So come here and look for it.
   actions:
     - text: Look Periodical
-      link: /getting-started
+      link: /periodical/periodical
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: Amazing

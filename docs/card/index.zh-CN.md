@@ -1,14 +1,13 @@
 ---
+title: 开源卡片
 nav:
-  title: 快速上手
-  order: 1
+  title: 开源卡片
+  order: 89
 ---
-
-# 快速上手
 
 ```jsx | inline
 import React from 'react';
-import StaticCard from '../components/staticCard.jsx';
+import StaticCard from '../../components/staticCard.jsx';
 
 export default () => {
   const tagList = ['vue', 'ui-design'];

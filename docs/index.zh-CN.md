@@ -4,7 +4,7 @@ hero:
   desc: 你是不是有那么一瞬间看到一个很好的开源项目，但又不轻易间离去后忘记。那么来这里找找看吧。
   actions:
     - text: 查看期刊
-      link: /getting-started
+      link: /periodical/periodical
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: 惊艳的
