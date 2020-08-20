@@ -11,7 +11,8 @@ export default props => {
     const $ = await rq({
       uri: `https://github.com/${user}/${repo}`,
       headers: {
-        'Sec-Fetch-Mode': 'no-cors'
+        'Sec-Fetch-Mode': 'no-cors',
+        'Origin': `https://github.com/${user}/${repo}`
       },
       transform: function(body) {
         return cheerio.load(body, {
@@ -56,6 +57,10 @@ export default props => {
       uri: `https://github.com/${user}`,
       transform: function(body) {
         return cheerio.load(body);
+      },
+      headers: {
+        'Sec-Fetch-Mode': 'no-cors',
+        'Origin': `https://github.com/${user}/${repo}`
       },
     });
     return $('img.TableObject-item.avatar').attr('src');
