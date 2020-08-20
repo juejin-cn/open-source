@@ -19,6 +19,7 @@
     ]
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.17.2",
     "dumi": "^1.0.9",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
@@ -26,6 +27,9 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
-    "antd": "^4.5.4"
+    "antd": "^4.5.4",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
   }
 }

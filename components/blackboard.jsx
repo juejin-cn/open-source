@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card, Space, Avatar, Tag } from 'antd';
 import { StarOutlined, BranchesOutlined, EyeOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
@@ -9,9 +9,21 @@ export default props => {
     <Card
       className={classes.githubCard}
       actions={[
-        <IconText icon={EyeOutlined} text="2" key="EyeOutlined" />,
-        <IconText icon={StarOutlined} text="156" key="StarOutlined" />,
-        <IconText icon={BranchesOutlined} text="7" key="BranchesOutlined" />,
+        <IconText
+          icon={EyeOutlined}
+          text={githubData.watching}
+          key="EyeOutlined"
+        />,
+        <IconText
+          icon={StarOutlined}
+          text={githubData.stars}
+          key="StarOutlined"
+        />,
+        <IconText
+          icon={BranchesOutlined}
+          text={githubData.forks}
+          key="BranchesOutlined"
+        />,
       ]}
     >
       <Card.Meta
@@ -20,33 +32,17 @@ export default props => {
         description={props.repo.description}
       />
       <div className={classes.tagView}>
-        <Tag className={classes.tagLine} color="volcano">
-          vue
-        </Tag>
-        <Tag className={classes.tagLine} color="orange">
-          javascript
-        </Tag>
-        <Tag className={classes.tagLine} color="gold">
-          vuejs
-        </Tag>
-        <Tag className={classes.tagLine} color="lime">
-          ui design
-        </Tag>
-        <Tag className={classes.tagLine} color="green">
-          open source
-        </Tag>
-        <Tag className={classes.tagLine} color="cyan">
-          vue-component
-        </Tag>
-        <Tag className={classes.tagLine} color="blue">
-          ui-kit
-        </Tag>
-        <Tag className={classes.tagLine} color="geekblue">
-          element-ui
-        </Tag>
-        <Tag className={classes.tagLine} color="purple">
-          desktop
-        </Tag>
+        {githubData.tags
+          ? githubData.tags.map((item, index) => (
+              <Tag
+                key={index.toString()}
+                className={classes.tagLine}
+                color="volcano"
+              >
+                {item}
+              </Tag>
+            ))
+          : null}
       </div>
     </Card>
   );
