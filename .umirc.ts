@@ -1,8 +1,8 @@
 import { defineConfig } from 'dumi';
 export default defineConfig({
   title: 'open-source',
-  favicon: 'https://b-gold-cdn.xitu.io/favicons/v2/favicon.ico',
-  logo: './logo.png',
+  favicon: './public/logo.png',
+  logo: './public/logo.png',
   mode: 'site',
   base: '/open-source',
   publicPath: '/open-source/',
@@ -13,5 +13,8 @@ export default defineConfig({
   theme: {
     '@c-primary': '#0876e4',
   },
-  locales: [['zh-CN', '中文'], ['en-US', 'English']]
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
 });

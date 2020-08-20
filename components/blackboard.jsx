@@ -1,15 +1,10 @@
 import React from 'react';
 import { Card, Space, Avatar, Tag } from 'antd';
-import {
-  StarOutlined,
-  BranchesOutlined,
-  EyeOutlined,
-  UserOutlined,
-} from '@ant-design/icons';
+import { StarOutlined, BranchesOutlined, EyeOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 import classes from '../public/styles/blackboard.css';
 
-export default () => {
+export default props => {
   return (
     <Card
       className={classes.githubCard}
@@ -20,14 +15,9 @@ export default () => {
       ]}
     >
       <Card.Meta
-        avatar={
-          <Avatar
-            size="large"
-            src="https://avatars2.githubusercontent.com/u/12810740?s=200&v=4"
-          />
-        }
-        title="element-ui"
-        description="A Vue.js 2.0 UI Toolkit for Web"
+        avatar={<Avatar size="large" src={props.avatar} />}
+        title={props.repo.title}
+        description={props.repo.description}
       />
       <div className={classes.tagView}>
         <Tag className={classes.tagLine} color="volcano">
@@ -63,8 +53,8 @@ export default () => {
 };
 
 /**
- *
- * @param {  } param0
+ * 图标文字组件
+ * @param { Object } params 图标文字
  */
 const IconText = ({ icon, text }) => (
   <Space>
