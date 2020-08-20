@@ -10,6 +10,9 @@ export default props => {
   const getRepoData = async ({ user, repo }) => {
     const $ = await rq({
       uri: `https://github.com/${user}/${repo}`,
+      headers: {
+        'Sec-Fetch-Mode': 'no-cors'
+      },
       transform: function(body) {
         return cheerio.load(body, {
           ignoreWhitespace: true,
