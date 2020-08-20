@@ -1,8 +1,8 @@
 import { defineConfig } from 'dumi';
 export default defineConfig({
   title: 'open-source',
-  favicon: './public/logo.png',
-  logo: './public/logo.png',
+  favicon: './logo.png',
+  logo: './logo.png',
   mode: 'site',
   base: '/open-source',
   publicPath: '/open-source/',
