@@ -24,7 +24,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.itcodes.cn/"><img src="https://avatars2.githubusercontent.com/u/8282645?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
     <td align="center"><a href="https://www.kkzhilu.xyz/"><img src="https://avatars2.githubusercontent.com/u/34807944?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
-    <td align="center"><a href="https://dingxuewen.com/"><img src="https://avatars3.githubusercontent.com/u/26959437?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+    <td align="center"><a href="http://t.eyufax.com/"><img src="https://avatars3.githubusercontent.com/u/11206586?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
     <td align="center"><a href="https://juejin.im/user/5c1b4d04e51d450eca5af1dd"><img src="https://avatars0.githubusercontent.com/u/45115006?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
     <td align="center"><a href="https://youngjuning.js.org/"><img src="https://avatars2.githubusercontent.com/u/13204332?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
     <td align="center"><a href="https://github.com/Cookieboty"><img src="https://avatars3.githubusercontent.com/u/13778283?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
