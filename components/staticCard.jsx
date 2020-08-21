@@ -7,6 +7,7 @@ import classes from '../public/styles/blackboard.css';
 const StaticCard = props => {
   return (
     <Card
+      style={{ display: 'inline-block' }}
       className={classes.githubCard}
       actions={[
         <IconText
