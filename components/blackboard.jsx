@@ -14,11 +14,14 @@ export default props => {
       axios.get(
         `https://api.github.com/repos/${user}/${repo}?client_id=${ClientID}&client_secret=${ClientSecret}`,
       ),
-      axios.get(`https://api.github.com/repos/juejin-im/open-source/topics`, {
-        headers: {
-          Accept: 'application/vnd.github.mercy-preview+json',
+      axios.get(
+        `https://api.github.com/repos/${user}/${repo}/topics?client_id=${ClientID}&client_secret=${ClientSecret}`,
+        {
+          headers: {
+            Accept: 'application/vnd.github.mercy-preview+json',
+          },
         },
-      }),
+      ),
     ]);
     const data = {
       ...res[0].data,
