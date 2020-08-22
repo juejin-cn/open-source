@@ -7,38 +7,18 @@ nav:
 
 ```jsx | inline
 import React from 'react';
-import StaticCard from '../../components/staticCard.jsx';
+import Card from '../../components/blackboard.jsx';
 
 export default () => {
-  const tagList = ['vue', 'ui-design'];
-  const repo = {
-    title: 'element-ui',
-    avatar:
-      'https://user-images.githubusercontent.com/10095631/35603534-bb24470c-0678-11e8-8bcc-17ceaef8cbef.png',
-    description: '测试卡片',
-    watching: 100,
-    stars: 100,
-    fork: 100,
-  };
-  return <StaticCard repo={repo} tagList={tagList} />;
+  return <Card user="juejin-im" repo="open-source" />;
 };
 ```
 
 ```jsx | inline
 import React from 'react';
-import StaticCard from '../../components/staticCard.jsx';
+import Card from '../../components/blackboard.jsx';
 
 export default () => {
-  const tagList = ['vue', 'ui-design'];
-  const repo = {
-    title: 'element-ui',
-    avatar:
-      'https://user-images.githubusercontent.com/10095631/35603534-bb24470c-0678-11e8-8bcc-17ceaef8cbef.png',
-    description: '测试卡片',
-    watching: 100,
-    stars: 100,
-    fork: 100,
-  };
   return (
     <div
       style={{
@@ -47,10 +27,10 @@ export default () => {
         flexWrap: 'wrap',
       }}
     >
-      <StaticCard repo={repo} tagList={tagList} />
-      <StaticCard repo={repo} tagList={tagList} />
-      <StaticCard repo={repo} tagList={tagList} />
-      <StaticCard repo={repo} tagList={tagList} />
+      <Card user="juejin-im" repo="open-source" />
+      <Card user="juejin-im" repo="open-source" />
+      <Card user="juejin-im" repo="open-source" />
+      <Card user="juejin-im" repo="open-source" />
     </div>
   );
 };

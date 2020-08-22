@@ -1,80 +1,36 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Space, Avatar, Tag } from 'antd';
 import { StarOutlined, BranchesOutlined, EyeOutlined } from '@ant-design/icons';
-import cheerio from 'cheerio';
-import rq from 'request-promise';
+import axios from 'axios';
 import 'antd/dist/antd.css';
 import classes from '../public/styles/blackboard.css';
 
+const ClientID = '095e78751050b0ea6006';
+const ClientSecret = 'b7dca1a93ae62fa9fd841b61d8fc25f9e6dd7b0b';
+
 export default props => {
   const getRepoData = async ({ user, repo }) => {
-    const $ = await rq({
-      uri: `https://github.com/${user}/${repo}`,
-      headers: {
-        'Sec-Fetch-Mode': 'no-cors',
-        'Origin': `https://github.com/${user}/${repo}`
-      },
-      transform: function(body) {
-        return cheerio.load(body, {
-          ignoreWhitespace: true,
-        });
-      },
-    });
-    const tags = [];
-    $('.topic-tag.topic-tag-link').each(function(i, elem) {
-      tags[i] = $(this)
-        .text()
-        .replace(/\r\n/g, '')
-        .replace(/\n/g, '')
-        .replace(/ /g, '');
-    });
-    return {
-      watching: $('ul.pagehead-actions > li:nth-child(1) a.social-count')
-        .text()
-        .replace(/\r\n/g, '')
-        .replace(/\n/g, '')
-        .replace(/ /g, ''),
-      stars: $('ul.pagehead-actions > li:nth-child(2) a.social-count')
-        .text()
-        .replace(/\r\n/g, '')
-        .replace(/\n/g, '')
-        .replace(/ /g, ''),
-      forks: $('ul.pagehead-actions > li:nth-child(2) a.social-count')
-        .text()
-        .replace(/\r\n/g, '')
-        .replace(/\n/g, '')
-        .replace(/ /g, ''),
-      description: $('p.f4.mt-3')
-        .text()
-        .replace(/\r\n/g, '')
-        .replace(/\n/g, '')
-        .replace(/ /g, ''),
-      tags: tags,
+    const res = await Promise.all([
+      axios.get(
+        `https://api.github.com/repos/${user}/${repo}?client_id=${ClientID}&client_secret=${ClientSecret}`,
+      ),
+      axios.get(`https://api.github.com/repos/juejin-im/open-source/topics`, {
+        headers: {
+          Accept: 'application/vnd.github.mercy-preview+json',
+        },
+      }),
+    ]);
+    const data = {
+      ...res[0].data,
+      tags: res[1].data?.names,
     };
-  };
-  const getAvatar = async ({ user }) => {
-    const $ = await rq({
-      uri: `https://github.com/${user}`,
-      transform: function(body) {
-        return cheerio.load(body);
-      },
-      headers: {
-        'Sec-Fetch-Mode': 'no-cors',
-        'Origin': `https://github.com/${user}/${repo}`
-      },
-    });
-    return $('img.TableObject-item.avatar').attr('src');
+    return data;
   };
 
   const [githubData, setGithubData] = useState({});
-  const [avatar, setAvatar] = useState('');
   useEffect(() => {
     getRepoData(props).then(data => {
       setGithubData(data);
-    });
-    getAvatar(props).then(avatar => {
-      console.log('[blackboard]', avatar);
-      setAvatar(avatar);
     });
   }, []);
 
@@ -84,12 +40,12 @@ export default props => {
       actions={[
         <IconText
           icon={EyeOutlined}
-          text={githubData.watching}
+          text={githubData.subscribers_count}
           key="EyeOutlined"
         />,
         <IconText
           icon={StarOutlined}
-          text={githubData.stars}
+          text={githubData.stargazers_count}
           key="StarOutlined"
         />,
         <IconText
@@ -100,7 +56,9 @@ export default props => {
       ]}
     >
       <Card.Meta
-        avatar={<Avatar size="large" src={avatar} />}
+        avatar={
+          <Avatar size="large" src={githubData.organization?.avatar_url} />
+        }
         title={props.repo}
         description={githubData.description}
       />
