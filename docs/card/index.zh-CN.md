@@ -10,7 +10,7 @@ import React from 'react';
 import Card from '../../components/blackboard.jsx';
 
 export default () => {
-  return <Card user="juejin-im" repo="open-source" />;
+  return <Card repo="juejin-im/open-source" />;
 };
 ```
 
@@ -27,10 +27,10 @@ export default () => {
         flexWrap: 'wrap',
       }}
     >
-      <Card user="juejin-im" repo="open-source" />
-      <Card user="juejin-im" repo="open-source" />
-      <Card user="juejin-im" repo="open-source" />
-      <Card user="juejin-im" repo="open-source" />
+      <Card repo="juejin-im/open-source" />
+      <Card repo="juejin-im/open-source" />
+      <Card repo="juejin-im/open-source" />
+      <Card repo="juejin-im/open-source" />
     </div>
   );
 };

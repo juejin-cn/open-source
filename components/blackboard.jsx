@@ -12,10 +12,10 @@ export default props => {
   const getRepoData = async ({ user, repo }) => {
     const res = await Promise.all([
       axios.get(
-        `https://api.github.com/repos/${user}/${repo}?client_id=${ClientID}&client_secret=${ClientSecret}`,
+        `https://api.github.com/repos/${repo}?client_id=${ClientID}&client_secret=${ClientSecret}`,
       ),
       axios.get(
-        `https://api.github.com/repos/${user}/${repo}/topics?client_id=${ClientID}&client_secret=${ClientSecret}`,
+        `https://api.github.com/repos/${repo}/topics?client_id=${ClientID}&client_secret=${ClientSecret}`,
         {
           headers: {
             Accept: 'application/vnd.github.mercy-preview+json',
@@ -62,7 +62,7 @@ export default props => {
         avatar={
           <Avatar size="large" src={githubData.organization?.avatar_url} />
         }
-        title={props.repo}
+        title={githubData.name}
         description={githubData.description}
       />
       <div className={classes.tagView}>
