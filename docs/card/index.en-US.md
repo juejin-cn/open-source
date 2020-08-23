@@ -9,5 +9,5 @@ nav:
 import React from 'react';
 import Card from '../../components/blackboard.jsx';
 
-export default () => <Card user="juejin-im" repo="open-source" />;
+export default () => <Card repo="juejin-im/open-source" />;
 ```
