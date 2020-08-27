@@ -17,4 +17,8 @@ export default defineConfig({
     ['zh-CN', '中文'],
     ['en-US', 'English'],
   ],
+  navs: [
+    null,
+    { title: 'GitHub', path: 'https://github.com/juejin-im/open-source' },
+  ],
 });
