@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: '* * * * *' # 每分钟执行一次
 
 jobs:
   deploy:
@@ -18,8 +16,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-  bot:
-    runs-on: ubuntu-18.04
-    steps:
-      - name: 'Checkout codes'
-        uses: actions/checkout@v2
