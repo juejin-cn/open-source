@@ -38,47 +38,49 @@ export default props => {
   }, []);
 
   return (
-    <Card
-      className={classes.githubCard}
-      actions={[
-        <IconText
-          icon={EyeOutlined}
-          text={githubData.subscribers_count}
-          key="EyeOutlined"
-        />,
-        <IconText
-          icon={StarOutlined}
-          text={githubData.stargazers_count}
-          key="StarOutlined"
-        />,
-        <IconText
-          icon={BranchesOutlined}
-          text={githubData.forks}
-          key="BranchesOutlined"
-        />,
-      ]}
-    >
-      <Card.Meta
-        avatar={
-          <Avatar size="large" src={githubData.organization?.avatar_url} />
-        }
-        title={githubData.name}
-        description={githubData.description}
-      />
-      <div className={classes.tagView}>
-        {githubData.tags
-          ? githubData.tags.map((item, index) => (
-              <Tag
-                key={index.toString()}
-                className={classes.tagLine}
-                color="volcano"
-              >
-                {item}
-              </Tag>
-            ))
-          : null}
-      </div>
-    </Card>
+    <a href={`https://github.com/${props.repo}`} target="_blank">
+      <Card
+        className={classes.githubCard}
+        actions={[
+          <IconText
+            icon={EyeOutlined}
+            text={githubData.subscribers_count}
+            key="EyeOutlined"
+          />,
+          <IconText
+            icon={StarOutlined}
+            text={githubData.stargazers_count}
+            key="StarOutlined"
+          />,
+          <IconText
+            icon={BranchesOutlined}
+            text={githubData.forks}
+            key="BranchesOutlined"
+          />,
+        ]}
+      >
+        <Card.Meta
+          avatar={
+            <Avatar size="large" src={githubData.organization?.avatar_url} />
+          }
+          title={githubData.name}
+          description={githubData.description}
+        />
+        <div className={classes.tagView}>
+          {githubData.tags
+            ? githubData.tags.map((item, index) => (
+                <Tag
+                  key={index.toString()}
+                  className={classes.tagLine}
+                  color="volcano"
+                >
+                  {item}
+                </Tag>
+              ))
+            : null}
+        </div>
+      </Card>
+    </a>
   );
 };
 
