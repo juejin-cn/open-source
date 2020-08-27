@@ -22,11 +22,10 @@ export default props => {
         flexWrap: 'wrap',
       }}
     >
-      {props.repos.map(({ repo, tags }) => {
+      {props.repos.map(repo => {
         return (
           <Card
             key={repo}
-            tags={tags}
             data={githubData.find(item => item.full_name === repo)}
           />
         );

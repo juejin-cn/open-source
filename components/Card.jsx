@@ -4,8 +4,7 @@ import { StarOutlined, BranchesOutlined, EyeOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 import classes from '../public/styles/blackboard.css';
 
-export default ({ data, tags }) => {
-  console.log('[blackboard]', data);
+export default ({ data }) => {
   return (
     <a href={`https://github.com/${data?.full_name}`} target="_blank">
       <Card
@@ -34,8 +33,8 @@ export default ({ data, tags }) => {
           description={data?.description}
         />
         <div className={classes.tagView}>
-          {tags
-            ? tags.map((item, index) => (
+          {data?.topics
+            ? data?.topics.map((item, index) => (
                 <Tag
                   key={index.toString()}
                   className={classes.tagLine}
