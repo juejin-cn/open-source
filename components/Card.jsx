@@ -1,46 +1,50 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card, Space, Avatar, Tag } from 'antd';
 import { StarOutlined, BranchesOutlined, EyeOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 import classes from '../public/styles/blackboard.css';
 
-const StaticCard = props => {
+export default ({ data, tags }) => {
+  console.log('[blackboard]', data);
   return (
-    <a href={`https://github.com/${props.repo.title}`} target="_blank">
+    <a href={`https://github.com/${data?.full_name}`} target="_blank">
       <Card
-        style={{ display: 'inline-block' }}
         className={classes.githubCard}
         actions={[
           <IconText
             icon={EyeOutlined}
-            text={props.repo.watching}
+            text={data?.watchers}
             key="EyeOutlined"
           />,
           <IconText
             icon={StarOutlined}
-            text={props.repo.stars}
+            text={data?.stars}
             key="StarOutlined"
           />,
           <IconText
             icon={BranchesOutlined}
-            text={props.repo.fork}
+            text={data?.forks}
             key="BranchesOutlined"
           />,
         ]}
       >
         <Card.Meta
-          avatar={<Avatar size="large" src={props.repo.avatar} />}
-          title={props.repo.title}
-          description={props.repo.description}
+          avatar={<Avatar size="large" src={data?.avatar_url} />}
+          title={data?.full_name}
+          description={data?.description}
         />
         <div className={classes.tagView}>
-          {props.repo.tagList.map(item => {
-            return (
-              <Tag className={classes.tagLine} color="blue" key={item}>
-                {item}
-              </Tag>
-            );
-          })}
+          {tags
+            ? tags.map((item, index) => (
+                <Tag
+                  key={index.toString()}
+                  className={classes.tagLine}
+                  color="blue"
+                >
+                  {item}
+                </Tag>
+              ))
+            : null}
         </div>
       </Card>
     </a>
@@ -48,8 +52,8 @@ const StaticCard = props => {
 };
 
 /**
- * 图标文字组件
- * @param { Object } params 图标文字
+ *
+ * @param {  } param0
  */
 const IconText = ({ icon, text }) => (
   <Space>
@@ -57,5 +61,3 @@ const IconText = ({ icon, text }) => (
     {text}
   </Space>
 );
-
-export default StaticCard;
