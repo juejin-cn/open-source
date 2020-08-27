@@ -19,7 +19,3 @@ features:
     desc: 探索编程中的最佳实践
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
-
-## Hello!
-
-你好呀。
