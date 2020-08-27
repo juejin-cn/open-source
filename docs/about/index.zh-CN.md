@@ -2,7 +2,7 @@
 title: 关于我们
 nav:
   title: 关于我们
-  order: 99
+  order: 1000
 ---
 
 ## 贡献指南
