@@ -17,9 +17,10 @@ export default props => {
   return (
     <div
       style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
+        display: 'grid',
+        gridGap: '20px',
+        gridTemplateRows: 'repeat(auto-fit, 1fr)',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
       }}
     >
       {props.repos.map(({ repo, tags }) => {
