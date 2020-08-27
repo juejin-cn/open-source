@@ -8,22 +8,8 @@ nav:
 ```jsx | inline
 import React from 'react';
 import CardList from '../../components/CardList.jsx';
-const repos = [
-  {
-    repo: 'didi/cube-ui',
-    tags: ['vue', 'vue-components', 'vue-ui', 'javascript'],
-  },
-  {
-    repo: 'XiaoMi/soar',
-    tags: ['sql', 'mysql', 'command-line', 'database', 'syntax'],
-  },
-  { repo: 'YMFE/yapi', tags: ['api', 'api-manager', 'api-test'] },
-  {
-    repo: 'remaxjs/remax',
-    tags: ['react', 'reactjs', 'miniprogram', 'wechat-mini-program'],
-  },
-  { repo: 'typicode/husky', tags: ['git', 'hooks'] },
-];
+import repos from './repos.js';
+
 export default () => {
   return <CardList repos={repos} />;
 };

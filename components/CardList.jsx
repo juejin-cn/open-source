@@ -23,11 +23,10 @@ export default props => {
         gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
       }}
     >
-      {props.repos.map(({ repo, tags }) => {
+      {props.repos.map(repo => {
         return (
           <Card
             key={repo}
-            tags={tags}
             data={githubData.find(item => item.full_name === repo)}
           />
         );
