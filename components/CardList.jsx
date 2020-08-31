@@ -7,9 +7,7 @@ export default props => {
   useEffect(() => {
     axios
       .get(
-        window.location.host === "juejin_im.gitee.io"
-          ? 'https://gitee.com/juejin_im/repo-data/raw/master/repos.json'
-          : 'https://raw.githubusercontent.com/juejin-im/repo-data/master/repos.json',
+        'https://raw.githubusercontent.com/juejin-im/repo-data/master/repos.json',
       )
       .then(({ data }) => {
         setGithubData(data);
