@@ -12,6 +12,12 @@
   <a title="GitHub Forks" target="_blank" href="https://github.com/juejin-im/open-source/network/members"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/juejin-im/open-source.svg?label=Forks&style=social"></a>
   <br>  
   <br>
+  <a href='https://gitee.com/juejin-im/open-source/stargazers'><img src='https://gitee.com/juejin-im/open-source/badge/star.svg?theme=dark'></img>
+  </a>
+  <a href='https://gitee.com/juejin-im/open-source/members'><img src='https://gitee.com/juejin-im/open-source/badge/fork.svg?theme=dark'></img>
+  </a>  
+  <br>  
+  <br>
   <a title="English" href="#">English</a> | <a title="Chinese" href="README.md">Chinese</a></p> 
 <p align="center">  
   Do you see a good open source project for a moment, but you don't forget it after leaving, so come here and have a look.

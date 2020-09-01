@@ -12,6 +12,12 @@
   <a title="GitHub Forks" target="_blank" href="https://github.com/juejin-im/open-source/network/members"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/juejin-im/open-source.svg?label=Forks&style=social"></a>
   <br>  
   <br>
+  <a href='https://gitee.com/juejin-im/open-source/stargazers'><img src='https://gitee.com/juejin-im/open-source/badge/star.svg?theme=dark'></img>
+  </a>
+  <a href='https://gitee.com/juejin-im/open-source/members'><img src='https://gitee.com/juejin-im/open-source/badge/fork.svg?theme=dark'></img>
+  </a>  
+  <br>  
+  <br>
   <a title="English" href="README_EN.md">English</a> | <a title="简体中文" href="#">简体中文</a></p> 
 <p align="center">  
   你是不是有那么一瞬间看到一个很好的开源项目，但又不轻易间离去后忘记，那么来这里找找看吧。
