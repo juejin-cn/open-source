@@ -7,15 +7,20 @@
     "build": "dumi build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
-      "prettier --write"
+      "prettier --write",
+      "git add"
     ],
     "*.ts?(x)": [
-      "prettier --parser=typescript --write"
+      "prettier --parser=typescript --write",
+      "git add"
     ]
   },
   "devDependencies": {
@@ -27,7 +32,10 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "antd": "^4.5.4",
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "husky": "^4.2.5"
   }
 }
