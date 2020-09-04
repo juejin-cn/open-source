@@ -32,6 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/he-erduo"><img src="https://avatars2.githubusercontent.com/u/33930171?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
+    <td align="center"><a href="https://github.com/isboyjc"><img src="https://avatars2.githubusercontent.com/u/42193415?v=4" width="80px;" style="border-radius: 80px;"/><br/></a></td>
   </tr>
 </table>
 
