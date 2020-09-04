@@ -2,8 +2,8 @@
 title: 项目
 sidemenu: false
 nav:
-  title: 项目
   order: 1
+  title: 项目
 ---
 
 ```jsx | inline

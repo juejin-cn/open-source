@@ -1,8 +1,8 @@
 ---
 title: 关于
 nav:
+  order: 3
   title: 关于
-  order: 1000
 ---
 
 ## 贡献指南
