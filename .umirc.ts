@@ -21,4 +21,22 @@ export default defineConfig({
     null,
     { title: 'GitHub', path: 'https://github.com/juejin-im/open-source' },
   ],
+  // menus: {
+  //   '/periodical': [
+  //     {
+  //       title: '第二期',
+  //       children: ['periodical/Cesiumjs'],
+  //     },
+  //     {
+  //       title: '第一期',
+  //       children: [
+  //         'periodical/Cube-UI',
+  //         'periodical/Husky',
+  //         'periodical/Remaxjs',
+  //         'periodical/Soar',
+  //         'periodical/Yapi',
+  //       ],
+  //     },
+  //   ],
+  // },
 });

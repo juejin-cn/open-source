@@ -1,7 +1,7 @@
 ---
-title: 关于我们
+title: 关于
 nav:
-  title: 关于我们
+  title: 关于
   order: 1000
 ---
 

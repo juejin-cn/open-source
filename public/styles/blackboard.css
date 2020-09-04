@@ -1,6 +1,11 @@
 .githubCard {
-  /* width: 350px; */
+  /* height: 300px; */
   margin-top: 16px;
+  border: none;
+  box-shadow: 0 0 5px #eee;
+}
+.githubCard:hover {
+  box-shadow: 0 0 5px #ddd;
 }
 
 .tagView {

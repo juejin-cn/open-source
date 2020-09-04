@@ -1,8 +1,9 @@
 ---
-title: 开源卡片
+title: 项目
+sidemenu: false
 nav:
-  title: 开源卡片
-  order: 100
+  title: 项目
+  order: 1
 ---
 
 ```jsx | inline
