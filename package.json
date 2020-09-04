@@ -37,5 +37,9 @@
     "antd": "^4.5.4",
     "axios": "^0.20.0",
     "husky": "^4.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juejin-im/open-source.git"
   }
 }

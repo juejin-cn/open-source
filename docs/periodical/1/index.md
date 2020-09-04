@@ -6,6 +6,7 @@ nav:
   title: 期刊
 group:
   title: 第一期
+# translateHelp: true
 ---
 
 ## Cube-UI
