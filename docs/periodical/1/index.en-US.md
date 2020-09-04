@@ -1,12 +1,16 @@
 ---
 order: -1
-title: 第一期
+title: The first phase
 nav:
   order: 2
-  title: 期刊
+  title: Periodical
 group:
-  title: 第一期
+  title: The first phase
 ---
+
+<Alert>
+提示：这篇文章还没有被翻译，想帮助我们吗，点击页面末尾的 Edit this doc on GitHub。
+</Alert>
 
 ## Cube-UI
 
